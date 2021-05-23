@@ -1,0 +1,33 @@
+#root {
+  background-color: #fff6f4;
+}
+
+.topContainer {
+  background-image: url(../static/images/home.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 35rem;
+  padding: 5rem 1rem 12rem;
+  width: 100%;
+  text-align: center;
+}
+
+.heading {
+  color: #c1905c;
+  
+}
+.search {
+  margin-top: 5vmax;
+}
+.content {
+  text-align: left;
+  padding-left: 2rem;
+}
+
+@media only screen and (max-width: 600px){
+  .topContainer {
+    text-align: left;
+    padding: 1rem 0;
+  }
+}

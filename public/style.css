@@ -1,0 +1,13 @@
+.fixed-bottom {
+  background-color: black;
+  height: 5rem;
+  position: sticky;
+  width: 100%;
+}
+
+.footer-content {
+  position: absolute;
+  width: 100%;
+  padding-top: 20px;
+  text-align: center;
+}
